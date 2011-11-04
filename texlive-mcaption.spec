@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/mcaption
+# catalog-date 2009-03-14 02:18:31 +0100
+# catalog-license lppl
+# catalog-version 3.0
 Name:		texlive-mcaption
 Version:	3.0
 Release:	1
@@ -48,6 +54,7 @@ the changepage package.
 #- source
 %doc %{_texmfdistdir}/source/latex/mcaption/mcaption.dtx
 %doc %{_texmfdistdir}/source/latex/mcaption/mcaption.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ the changepage package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
