@@ -6,7 +6,7 @@
 # catalog-version 3.0
 Name:		texlive-mcaption
 Version:	3.0
-Release:	10
+Release:	11
 Summary:	Put captions in the margin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mcaption
