@@ -1,6 +1,6 @@
 Name:		texlive-mcaption
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Put captions in the margin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mcaption
